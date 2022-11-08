@@ -1,0 +1,153 @@
+body{
+    background-color: aqua;
+    margin: 0px;
+}
+.container{
+    background-color: rgb(231, 183, 183);
+    height: 100vh;
+}
+.header{
+    background-color: green;
+    height: 7vh;
+    display: flex;
+    
+}
+.main{
+    background-color: white;
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.footer{
+    background-color: blue;
+    height: 10vh;
+    
+}
+.header-01{
+background-color: white;
+width: 50vw;
+display: flex;
+align-items: center;
+justify-content: left;
+text-indent: 20pt;
+}
+.header-02{
+    background-color:  white;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.main-01{
+    background-color:white;
+    width: 50vw;
+    
+}
+.main-01-01{
+    background-color:white;
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.main-01-02{
+    background-color: rgb(98, 197, 164);
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.main-01-03{
+    background-color: white;
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+}
+.main-01-04{
+    background-color: white;
+    width: 50vw;
+    height: 33vh;
+    text-align: center;
+    
+    
+   
+}
+.main-01-03-01{
+    background-color: white;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.main-01-03-02{
+    background-color: white;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.footer-sup{
+    background-color: gainsboro;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-indent: 20pt;
+    gap: 1px;
+
+}
+.footer-inf{
+    background-color: gainsboro;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+}
+.footer-inf-01{
+    background-color:gainsboro;
+    width: 35vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-inf-02{
+    background-color: gainsboro;
+    width: 30vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.footer-inf-03{
+    background-color: gainsboro;
+    width: 35vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .logo{
+    margin:auto;
+    display:block;
+
+ }  
+ .input{
+    border-radius: 2px
+    
+ }
