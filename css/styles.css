@@ -2,16 +2,20 @@ body{
     background-color: aqua;
     margin: 0px;
 }
+
 .container{
     background-color: rgb(231, 183, 183);
     height: 100vh;
 }
+
+/* cabecera */
 .header{
     background-color: green;
     height: 7vh;
     display: flex;
     
 }
+/* contenido */
 .main{
     background-color: white;
     height: 83vh;
@@ -19,11 +23,14 @@ body{
     justify-content: center;
    
 }
+/* pie de página */
 .footer{
     background-color: blue;
     height: 10vh;
     
 }
+
+/* Cabecera parte derecha */
 .header-01{
 background-color: white;
 width: 50vw;
@@ -32,6 +39,8 @@ align-items: center;
 justify-content: left;
 text-indent: 20pt;
 }
+
+/* Cabecera parte izquierda */
 .header-02{
     background-color:  white;
     width: 50vw;
@@ -40,6 +49,8 @@ text-indent: 20pt;
     justify-content: right;
 
 }
+
+/* Contenido */
 
 .main-01{
     background-color:white;
@@ -57,7 +68,7 @@ text-indent: 20pt;
    
 }
 .main-01-02{
-    background-color: rgb(98, 197, 164);
+
     width: 50vw;
     height: 10vh;
     display: flex;
@@ -98,15 +109,18 @@ text-indent: 20pt;
     
    
 }
+
+/* Pie de página */
 .footer-sup{
     background-color: gainsboro;
     width: 100vw;
-    height: 5vh;
+    height: 4.8vh;
     display: flex;
     align-items: center;
     justify-content: left;
     text-indent: 20pt;
-    gap: 1px;
+    border-bottom: 0.2vh solid black;
+    
 
 }
 .footer-inf{
@@ -114,6 +128,8 @@ text-indent: 20pt;
     width: 100vw;
     height: 5vh;
     display: flex;
+    /* Si añado un border se  */
+    
 }
 .footer-inf-01{
     background-color:gainsboro;
@@ -147,7 +163,12 @@ text-indent: 20pt;
     display:block;
 
  }  
+
+ /* Buscador */
  .input{
-    border-radius: 2px
-    
+
+    border-radius: 25px;
+    width: 30vw;
+    height: 5vh;
+    font-size: medium;
  }
